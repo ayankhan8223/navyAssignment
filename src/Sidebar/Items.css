@@ -1,0 +1,24 @@
+.item {
+  border-radius: 8px;
+  width: 98px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.item img {
+  height: 30px;
+  width: 30px;
+  color: #303030;
+  object-fit: contain;
+}
+.item p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #19191d;
+  margin-top: 5px;
+}
+.active {
+  background: #d8e6ff;
+}
