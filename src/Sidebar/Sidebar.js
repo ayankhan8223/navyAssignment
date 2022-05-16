@@ -5,6 +5,7 @@ import Items from "./Items";
 function Sidebar() {
   return (
     <div className="Container">
+      {/* using resuable component Item for each Icon location -- ./Items */}
       <Items image="\home.png" title="Home" active />
       <Items image="\layout (2).png" title="Workspace" />
       <Items image="\Vector (1).png" title="MARPOL" />

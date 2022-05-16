@@ -6,7 +6,10 @@ function App() {
   return (
     <div className="App">
       <div className="mainContainer">
+        {/* i divided code into two main component sidebar and mainContent */}
+        {/* sidebar */}
         <Sidebar />
+        {/* maincontent */}
         <MainContent />
       </div>
     </div>
