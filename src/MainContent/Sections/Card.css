@@ -1,0 +1,35 @@
+.card {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+.cardInner {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 30px;
+}
+.cardInner span {
+  font-weight: 700;
+  margin-right: 4px;
+}
+.cardInner p {
+  color: #213838;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.time {
+  width: 100%;
+  padding-top: 45px;
+}
+.time p {
+  text-align: right;
+  color: #5a5b6a;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 700;
+}
